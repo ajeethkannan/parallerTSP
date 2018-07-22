@@ -1,0 +1,106 @@
+Strong scaling
+
+30 cities
+
+java pj2 jar=myprogram.jar workers=1 SeqTSPGA 30.txt 4800 
+java pj2 jar=myprogram.jar workers=1 SmpTSPGA 30.txt 100 2 6
+java pj2 jar=myprogram.jar workers=2 SmpTSPGA 30.txt 50 2 6
+java pj2 jar=myprogram.jar workers=3 SmpTSPGA 30.txt 34 2 6
+java pj2 jar=myprogram.jar workers=4 SmpTSPGA 30.txt 25 2 6
+
+*******************************************************
+
+40 cities
+
+java pj2 jar=myprogram.jar workers=1 SeqTSPGA 40.txt 5376
+java pj2 jar=myprogram.jar workers=1 SmpTSPGA 40.txt 112 2 6
+java pj2 jar=myprogram.jar workers=2 SmpTSPGA 40.txt 56 2 6
+java pj2 jar=myprogram.jar workers=3 SmpTSPGA 40.txt 38 2 6
+java pj2 jar=myprogram.jar workers=4 SmpTSPGA 40.txt 28 2 6
+
+*******************************************************
+
+50 cities
+
+java pj2 jar=myprogram.jar workers=1 SeqTSPGA 50.txt 6144
+java pj2 jar=myprogram.jar workers=1 SmpTSPGA 50.txt 128 2 6
+java pj2 jar=myprogram.jar workers=2 SmpTSPGA 50.txt 64 2 6
+java pj2 jar=myprogram.jar workers=3 SmpTSPGA 50.txt 43 2 6
+java pj2 jar=myprogram.jar workers=4 SmpTSPGA 50.txt 28 2 6
+
+*******************************************************
+
+55 cities
+
+java pj2 jar=myprogram.jar workers=1 SeqTSPGA 55.txt 7296
+java pj2 jar=myprogram.jar workers=1 SmpTSPGA 55.txt 152 2 6
+java pj2 jar=myprogram.jar workers=2 SmpTSPGA 55.txt 76 2 6
+java pj2 jar=myprogram.jar workers=3 SmpTSPGA 55.txt 51 2 6
+java pj2 jar=myprogram.jar workers=4 SmpTSPGA 55.txt 38 2 6
+
+*******************************************************
+
+60 cities
+
+java pj2 jar=myprogram.jar workers=1 SeqTSPGA 60.txt 8064
+java pj2 jar=myprogram.jar workers=1 SmpTSPGA 60.txt 168 2 6
+java pj2 jar=myprogram.jar workers=2 SmpTSPGA 60.txt 84 2 6
+java pj2 jar=myprogram.jar workers=3 SmpTSPGA 60.txt 56 2 6
+java pj2 jar=myprogram.jar workers=4 SmpTSPGA 60.txt 42 2 6
+
+*******************************************************
+*******************************************************
+*******************************************************
+
+Weak scaling 
+
+30 cities
+
+java pj2 jar=myprogram.jar workers=1 SeqTSPGA 30.txt 4800
+java pj2 jar=myprogram.jar workers=1 SmpTSPGA 30.txt 4800 2 6
+java pj2 jar=myprogram.jar workers=2 SmpTSPGA 30.txt 4800 2 6
+java pj2 jar=myprogram.jar workers=3 SmpTSPGA 30.txt 4800 2 6
+java pj2 jar=myprogram.jar workers=4 SmpTSPGA 30.txt 4800 2 6
+
+*******************************************************
+
+40 cities
+
+java pj2 jar=myprogram.jar workers=1 SeqTSPGA 40.txt 4800
+java pj2 jar=myprogram.jar workers=1 SmpTSPGA 40.txt 4800 2 6
+java pj2 jar=myprogram.jar workers=2 SmpTSPGA 40.txt 4800 2 6
+java pj2 jar=myprogram.jar workers=3 SmpTSPGA 40.txt 4800 2 6
+java pj2 jar=myprogram.jar workers=4 SmpTSPGA 40.txt 4800 2 6
+
+*******************************************************
+
+50 cities
+
+java pj2 jar=myprogram.jar workers=1 SeqTSPGA 50.txt 4800
+java pj2 jar=myprogram.jar workers=1 SmpTSPGA 50.txt 4800 2 6
+java pj2 jar=myprogram.jar workers=2 SmpTSPGA 50.txt 4800 2 6
+java pj2 jar=myprogram.jar workers=3 SmpTSPGA 50.txt 4800 2 6
+java pj2 jar=myprogram.jar workers=4 SmpTSPGA 50.txt 4800 2 6
+
+*******************************************************
+
+55 cities
+
+java pj2 jar=myprogram.jar workers=1 SeqTSPGA 55.txt 4800
+java pj2 jar=myprogram.jar workers=1 SmpTSPGA 55.txt 4800 2 6
+java pj2 jar=myprogram.jar workers=2 SmpTSPGA 55.txt 4800 2 6
+java pj2 jar=myprogram.jar workers=3 SmpTSPGA 55.txt 4800 2 6
+java pj2 jar=myprogram.jar workers=4 SmpTSPGA 55.txt 4800 2 6
+
+*******************************************************
+
+60 cities
+
+java pj2 jar=myprogram.jar workers=1 SeqTSPGA 60.txt 4800
+java pj2 jar=myprogram.jar workers=1 SmpTSPGA 60.txt 4800 2 6
+java pj2 jar=myprogram.jar workers=2 SmpTSPGA 60.txt 4800 2 6
+java pj2 jar=myprogram.jar workers=3 SmpTSPGA 60.txt 4800 2 6
+java pj2 jar=myprogram.jar workers=4 SmpTSPGA 60.txt 4800 2 6
+
+*******************************************************
+
